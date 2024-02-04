@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D183E8B32B6D5F4B00B5FC42 /* cinco_de_mayoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D183E8B22B6D5F4B00B5FC42 /* cinco_de_mayoApp.swift */; };
+		D183E8B52B6D5F4B00B5FC42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D183E8B42B6D5F4B00B5FC42 /* ContentView.swift */; };
+		D183E8B72B6D5F4D00B5FC42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D183E8B62B6D5F4D00B5FC42 /* Assets.xcassets */; };
+		D183E8BA2B6D5F4D00B5FC42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D183E8B92B6D5F4D00B5FC42 /* Preview Assets.xcassets */; };
+		D183E8C12B6D5F5E00B5FC42 /* FRButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D183E8C02B6D5F5E00B5FC42 /* FRButton.swift */; };
+		D18D55012B6D7B0E00BE4756 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18D55002B6D7B0E00BE4756 /* View.swift */; };
+		D18D55042B6D8A0600BE4756 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18D55032B6D8A0600BE4756 /* Welcome.swift */; };
+		D18D55062B6DA27400BE4756 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18D55052B6DA27400BE4756 /* Onboarding.swift */; };
+		D18D55082B6DA28200BE4756 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18D55072B6DA28200BE4756 /* OnboardingModel.swift */; };
+		D18D550A2B6DA55B00BE4756 /* CreateWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18D55092B6DA55B00BE4756 /* CreateWallet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D183E8AF2B6D5F4B00B5FC42 /* cinco-de-mayo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cinco-de-mayo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D183E8B22B6D5F4B00B5FC42 /* cinco_de_mayoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cinco_de_mayoApp.swift; sourceTree = "<group>"; };
+		D183E8B42B6D5F4B00B5FC42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D183E8B62B6D5F4D00B5FC42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D183E8B92B6D5F4D00B5FC42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D183E8C02B6D5F5E00B5FC42 /* FRButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRButton.swift; sourceTree = "<group>"; };
+		D18D55002B6D7B0E00BE4756 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		D18D55032B6D8A0600BE4756 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		D18D55052B6DA27400BE4756 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		D18D55072B6DA28200BE4756 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+		D18D55092B6DA55B00BE4756 /* CreateWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWallet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D183E8AC2B6D5F4B00B5FC42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D183E8A62B6D5F4B00B5FC42 = {
+			isa = PBXGroup;
+			children = (
+				D183E8B12B6D5F4B00B5FC42 /* cinco-de-mayo */,
+				D183E8B02B6D5F4B00B5FC42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D183E8B02B6D5F4B00B5FC42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D183E8AF2B6D5F4B00B5FC42 /* cinco-de-mayo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D183E8B12B6D5F4B00B5FC42 /* cinco-de-mayo */ = {
+			isa = PBXGroup;
+			children = (
+				D18D55022B6D89AE00BE4756 /* Onboarding */,
+				D18D54FF2B6D7B0300BE4756 /* Extensions */,
+				D18D54FD2B6D76EE00BE4756 /* UIKit */,
+				D183E8B22B6D5F4B00B5FC42 /* cinco_de_mayoApp.swift */,
+				D183E8B42B6D5F4B00B5FC42 /* ContentView.swift */,
+				D183E8B62B6D5F4D00B5FC42 /* Assets.xcassets */,
+				D183E8B82B6D5F4D00B5FC42 /* Preview Content */,
+			);
+			path = "cinco-de-mayo";
+			sourceTree = "<group>";
+		};
+		D183E8B82B6D5F4D00B5FC42 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D183E8B92B6D5F4D00B5FC42 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D18D54FD2B6D76EE00BE4756 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				D18D54FE2B6D76FB00BE4756 /* Button */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		D18D54FE2B6D76FB00BE4756 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				D183E8C02B6D5F5E00B5FC42 /* FRButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		D18D54FF2B6D7B0300BE4756 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D18D55002B6D7B0E00BE4756 /* View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D18D55022B6D89AE00BE4756 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				D18D55032B6D8A0600BE4756 /* Welcome.swift */,
+				D18D55052B6DA27400BE4756 /* Onboarding.swift */,
+				D18D55072B6DA28200BE4756 /* OnboardingModel.swift */,
+				D18D55092B6DA55B00BE4756 /* CreateWallet.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D183E8AE2B6D5F4B00B5FC42 /* cinco-de-mayo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D183E8BD2B6D5F4D00B5FC42 /* Build configuration list for PBXNativeTarget "cinco-de-mayo" */;
+			buildPhases = (
+				D183E8AB2B6D5F4B00B5FC42 /* Sources */,
+				D183E8AC2B6D5F4B00B5FC42 /* Frameworks */,
+				D183E8AD2B6D5F4B00B5FC42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cinco-de-mayo";
+			productName = "cinco-de-mayo";
+			productReference = D183E8AF2B6D5F4B00B5FC42 /* cinco-de-mayo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D183E8A72B6D5F4B00B5FC42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					D183E8AE2B6D5F4B00B5FC42 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = D183E8AA2B6D5F4B00B5FC42 /* Build configuration list for PBXProject "cinco-de-mayo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D183E8A62B6D5F4B00B5FC42;
+			productRefGroup = D183E8B02B6D5F4B00B5FC42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D183E8AE2B6D5F4B00B5FC42 /* cinco-de-mayo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D183E8AD2B6D5F4B00B5FC42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D183E8BA2B6D5F4D00B5FC42 /* Preview Assets.xcassets in Resources */,
+				D183E8B72B6D5F4D00B5FC42 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D183E8AB2B6D5F4B00B5FC42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18D55062B6DA27400BE4756 /* Onboarding.swift in Sources */,
+				D18D55012B6D7B0E00BE4756 /* View.swift in Sources */,
+				D18D550A2B6DA55B00BE4756 /* CreateWallet.swift in Sources */,
+				D18D55042B6D8A0600BE4756 /* Welcome.swift in Sources */,
+				D183E8B52B6D5F4B00B5FC42 /* ContentView.swift in Sources */,
+				D18D55082B6DA28200BE4756 /* OnboardingModel.swift in Sources */,
+				D183E8B32B6D5F4B00B5FC42 /* cinco_de_mayoApp.swift in Sources */,
+				D183E8C12B6D5F5E00B5FC42 /* FRButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D183E8BB2B6D5F4D00B5FC42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D183E8BC2B6D5F4D00B5FC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D183E8BE2B6D5F4D00B5FC42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cinco-de-mayo/Preview Content\"";
+				DEVELOPMENT_TEAM = WG7ZVCR4Q3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrik.dev.cinco-de-mayo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D183E8BF2B6D5F4D00B5FC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cinco-de-mayo/Preview Content\"";
+				DEVELOPMENT_TEAM = WG7ZVCR4Q3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrik.dev.cinco-de-mayo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D183E8AA2B6D5F4B00B5FC42 /* Build configuration list for PBXProject "cinco-de-mayo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D183E8BB2B6D5F4D00B5FC42 /* Debug */,
+				D183E8BC2B6D5F4D00B5FC42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D183E8BD2B6D5F4D00B5FC42 /* Build configuration list for PBXNativeTarget "cinco-de-mayo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D183E8BE2B6D5F4D00B5FC42 /* Debug */,
+				D183E8BF2B6D5F4D00B5FC42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D183E8A72B6D5F4B00B5FC42 /* Project object */;
+}
