@@ -1,5 +1,5 @@
 # Friends
-
+![Background](https://raw.githubusercontent.com/rylm/friends/main/bg.png)
 ## It's time to make a change
 Crypto can be brutal for new users. It's a good thing we love it and want to make it more accessible! With Friends wallet powered by passkeys, account abstraction, and AI, it's easier than ever to dive into web3.
 ## Main problems with existing wallets
